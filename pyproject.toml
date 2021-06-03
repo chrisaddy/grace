@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "grace"
+name = "gracefml"
 version = "0.0.1"
 description = "Framework for weakly-supervised regression"
 authors = ["chrisaddy <chris.william.addy@gmail.com>"]

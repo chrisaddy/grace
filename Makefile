@@ -11,3 +11,9 @@ test:
 
 convert:
 	poetry run dephell deps convert --from=pyproject.toml --to=setup.py
+
+build:
+	poetry build
+
+publish:
+	poetry publish
