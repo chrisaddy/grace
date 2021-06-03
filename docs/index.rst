@@ -16,6 +16,13 @@ gracefml
    :members:
 
 
+gracefml datasets
+===================
+.. automodule:: gracefml.datasets
+   :members:
+
+
+
 
 Indices and tables
 ==================

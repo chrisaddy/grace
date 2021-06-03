@@ -940,7 +940,7 @@ termcolor = ">=1.1.0,<2.0.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "2f9698be79d95fffd04ee790504bcfa48ae1e8228e76b84d799bf23c98bfd4c4"
+content-hash = "a4feb38cf81aed00dd4013558a3a5bff53903a12efa37896fc515bcb91ff8bdc"
 
 [metadata.files]
 aiohttp = [

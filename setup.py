@@ -15,7 +15,7 @@ readme = ''
 setup(
     long_description=readme,
     name='gracefml',
-    version='0.0.3',
+    version='0.0.4',
     description='Framework for weakly-supervised regression',
     python_requires='==3.*,>=3.8.0',
     author='chrisaddy',

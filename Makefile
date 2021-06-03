@@ -1,4 +1,5 @@
 .PHONY: docs
+BUMP?=patch
 
 all:
 	poetry run tox -q
@@ -13,11 +14,14 @@ docs:
 test:
 	poetry run pytest -vv tests
 
+bump:
+	poetry run dephell project bump --versioning=semver --from-format=poetry --from-path=pyproject.toml $(BUMP)
+
 convert:
-	poetry run dephell deps convert --from=pyproject.toml --to=setup.py
+	poetry run dephell deps convert --from-format=poetry --from-path=pyproject.toml --to-format=setuppy --to-path=setup.py
 
 build:
 	poetry build
 
-publish: convert build
+publish: bump convert build
 	poetry publish
