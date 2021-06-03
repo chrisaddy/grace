@@ -14,16 +14,16 @@ readme = ''
 
 setup(
     long_description=readme,
-    name='grace',
-    version='0.0.1',
+    name='gracefml',
+    version='0.0.2',
     description='Framework for weakly-supervised regression',
     python_requires='==3.*,>=3.8.0',
     author='chrisaddy',
     author_email='chris.william.addy@gmail.com',
     license='MIT',
-    packages=[],
+    packages=['gracefml', 'gracefml.bounding', 'gracefml.datasets'],
     package_dir={"": "."},
-    package_data={},
+    package_data={"gracefml.datasets": ["data/*.gz"]},
     install_requires=['pandas==1.*,>=1.2.4', 'pyro-ppl==1.*,>=1.6.0', 'sphinx==4.*,>=4.0.2'],
-    extras_require={"dev": ["dephell==0.*,>=0.8.3", "pytest==6.*,>=6.2.4"]},
+    extras_require={"dev": ["dephell==0.*,>=0.8.3", "mypy==0.*,>=0.812.0", "pydocstyle==6.*,>=6.1.1", "pytest==6.*,>=6.2.4", "tox-poetry==0.*,>=0.4.0"]},
 )

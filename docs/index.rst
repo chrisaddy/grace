@@ -10,6 +10,11 @@ Welcome to grace's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+gracefml
+===================
+.. automodule:: gracefml
+   :members:
+
 
 
 Indices and tables
