@@ -16,6 +16,13 @@ gracefml
    :members:
 
 
+gracefml datasets
+===================
+.. automodule:: gracefml.datasets
+   :members:
+
+
+
 
 Indices and tables
 ==================
@@ -23,3 +30,13 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+gracefml documentation
+===========================
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Package Reference
+
+   packages/datasets
+   packages/bounding
