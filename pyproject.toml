@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gracefml"
-version = "0.0.1"
+version = "0.0.2"
 description = "Framework for weakly-supervised regression"
 authors = ["chrisaddy <chris.william.addy@gmail.com>"]
 license = "MIT"

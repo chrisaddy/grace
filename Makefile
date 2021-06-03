@@ -19,5 +19,5 @@ convert:
 build:
 	poetry build
 
-publish:
+publish: convert build
 	poetry publish
