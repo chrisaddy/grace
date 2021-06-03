@@ -1,13 +1,17 @@
 .PHONY: docs
 
+all:
+	poetry run tox -q
+
 setup:
 	poetry install
+	poetry run tox
 
 docs:
 	cd docs && poetry run make html
 
 test:
-	pytest -vv
+	poetry run pytest -vv tests
 
 convert:
 	poetry run dephell deps convert --from=pyproject.toml --to=setup.py
