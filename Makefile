@@ -8,3 +8,6 @@ docs:
 
 test:
 	pytest -vv
+
+convert:
+	poetry run dephell deps convert --from=pyproject.toml --to=setup.py
